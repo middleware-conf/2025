@@ -1,85 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ACM Middleware 2025</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
 
-        header {
-            background-color: #004080;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
+<base href="https://middleware-conf.github.io/">
 
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-        }
 
-        h1 {
-            color: white;
-        }
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+<meta name="description" content="MIDDLEWARE 2024">
 
-        p {
-            font-size: 18px;
-            color: #555;
-        }
+<link rel="icon" href="/2025/img/favicon.ico">
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #004080;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
 
-        a {
-            color: #004080;
-            text-decoration: none;
-        }
+<title>Middleware 2025</title>
 
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<meta name="generator" content="Hugo 0.86.0" />
+
+
+    <link rel="stylesheet" href="/2024/css/owl.carousel.css" />
+    <link rel="stylesheet" href="/2024/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/2024/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/2024/css/ionicons.min.css" />
+    <link rel="stylesheet" href="/2024/css/animate.css" />
+    <link rel="stylesheet" href="/2024/css/syntax.css" />
+    <link rel="stylesheet" href="/2024/css/venobox.css" />
+<!-- Main Stylesheet -->
+
+<link rel="stylesheet" href="/2024/css/style.min.css" integrity="" media="screen">
+
+<script src="/2024/js/jquery-1.10.2.min.js"></script>
+<script src="/2024/js/bootstrap.min.js"></script>
+<script src="/2024/js/owl.carousel.min.js"></script>
+<script src="/2024/js/plugins.js"></script>
+<script src="/2024/js/venobox.min.js"></script>
+<script src="/2024/js/w3-include-html.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/2024/js/main.min.js"></script>
+
+<!-- google analitycs -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+
+
 </head>
-<body>
+<body onLoad = includeHTML()>
 
-    <header>
-        <h1>ACM Middleware 2025</h1>
-    </header>
+<div w3-include-html="/2024/fixed-templates/navbar.html"></div>
 
+	
+<!-- Slider Start -->
+<section id="slider" style="background-image: url('/2024/img/HK1.jpg'),url('/2024/img/HK1.jpg');">
     <div class="container">
-        <h1>Welcome to ACM Middleware 2025</h1>
-        <p>We are excited to announce the upcoming ACM Middleware Conference in 2025, to be held in Nashville, Tennessee, USA.</p>
-        <p>The general chair for the conference is <a href="https://www.dre.vanderbilt.edu/~gokhale/" target="_blank">Aniruddha Gokhale</a>.</p>
-        <p>The program chairs are:</p>
-        <ul>
-            <li><a href="https://faculty.engineering.ucdavis.edu/sadoghi/" target="_blank">Mohammad Sadoghi</a></li>
-            <li><a href="https://lydiaychen.com/" target="_blank">Lydia Chen</a></li>
-        </ul>
-        <p>Stay tuned for more details!</p>
-        <p>The call for papers will be announced soon with a Fall 2024 deadline.</p>
-        <p><strong>This website is currently under construction. Please check back later for updates.</strong></p>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="block text-center">
+                    <h1 class="animated fadeInUp text-uppercase">MIDDLEWARE 2025</h1>
+                    <p class="animated fadeInUp">26th ACM/IFIP International Middleware Conference</p>
+                    <p1 class="animated fadeInUp">xx<sup>nd</sup> &ndash; xx<sup>th</sup> December 2025</p1><br></br>
+                    <p2 class="animated fadeInUp">Vanderbilt University </p2><br></br>
+                    <p2 class="animated fadeInUp">Nashville, TN, USA</p2><br></br>
+                    <a class="btn btn-main btn-solid-border" href="#scope" >Conference Information</a>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
 
-    <footer>
-        <p>&copy; 2025 ACM Middleware Conference | Website Under Construction</p>
-    </footer>
 
+
+	
+<script>
+$(document).ready(function(){
+  
+  $("a").on('click', function(event) {
+
+    
+    if (this.hash !== "") {
+      
+      event.preventDefault();
+
+      
+      var hash = this.hash;
+
+      
+      
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+
+<section id="intro" style="margin-bottom:0px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <div style="margin-top:39px;">
+              <!--<p align="justify" style="color:#B16407">We are currently planning for a physical conference in Quebec City, scheduled for November 2024. Due to the current pandemic, our plans may change and require a virtual conference. We will provide updates as they become available through our various channels (Website, Twitter, Facebook, LinkedIn).</p>-->
+            <!--<p align="justify" style="color:#FF0000">Due to extenuating circumstances and numerous requests, we have decided to exceptionally extend the paper submission deadline until May 25th 11:59 pm AoE.</p>-->
+              <p align="justify" style="color:#FF0000">Middleware 2025 will be a physical conference in Nashville, scheduled for December 2025. All presentations for all tracks are expected to be in person. For special inquiries, please contact the general chair.</p>
+            </div>
+            <div>
+              <h2>ACM/IFIP Middleware</h2>
+              
+                <p align="justify">The annual ACM/IFIP Middleware conference is a major forum for discussing innovations and recent scientific advances in middleware systems with a focus on the design, implementation, deployment, and evaluation of distributed systems, platforms, and architectures for computing, storage, and communication.</p>
+              
+                <p align="justify">The conference will include a high-quality single-track technical program, invited speakers, an industrial track, panel discussions involving academic and industry leaders, poster and demonstration presentations, a doctoral symposium, tutorials, and workshops.</p>
+              
+            </div>
+            <div id="scope">
+              <h2>TOPICS OF INTEREST</h2>
+              <p align="justify">The Middleware conference seeks original submissions of research papers on a diverse range of topics, particularly those identifying new research directions. The topics of interest for the conference include, but are not limited to:</p>
+              <ul><li><strong>Middleware Applications</strong></li></ul>
+              
+              <li>	Middleware for cyber-physical and real-time systems</li>
+                <li>	Middleware support for security and privacy</li>
+                  <li>	Middleware for AI and machine learning systems </li>
+                    <li>	Middleware for data science pipelines</li>
+                      <li>	Middleware techniques for internet-of-things and smart cities</li>
+                        <li>Middleware for multimedia systems</li>
+
+
+              <ul><li><strong>Middleware Systems</strong></li></ul>
+              <li>	Fault tolerance and consistency</li>
+              <li>	Distributed and parallel systems</li>
+                <li>	Distributed ledgers and blockchains</li>
+                  <li>	Event-based, publish/subscribe, streaming, and peer-to-peer systems</li>
+                    <li>	Serverless and Function-as-a-Service computing</li>
+                      <li>	Data-intensive systems (big data)</li>
+                        <li>	Cloud, fog, edge computing, and data centers</li>
+                          <li>	Networking, network function virtualization, and software-defined networking</li>
+                            <li>	Mobile and pervasive systems and services</li>
+                              <li>	Emerging hardware technologies</li>
+
+
+              <ul><li><strong>Middleware Design Principles and Programming Models</strong></li></ul>
+              <li>	Programming abstractions and paradigms for middleware</li>
+                <li>	Reconfigurable, adaptable, and reflective middleware</li>
+                  <li>	Critical reviews of middleware paradigms, e.g., object models, aspect orientation</li>
+                    <li>Methodologies and tools for middleware systems design, implementation, verification, and evaluation</li>
+                      <li>	Monitoring, resource management, and analysis</li>
+                        <li>	Virtualization, auto-scaling, provisioning, and scheduling</li>
+                          <li>	Energy and power-aware techniques</li>
+              
+            </div>
+            <div>
+              <h2 style="margin-bottom:20px;">General Chair</h2>
+              
+              <li>Aniruddha S Gokhale, Vanderbilt University, Nashville, TN, USA</li>
+              
+            </div>
+            <div>
+              <h2 style="margin-bottom:20px;">Program Committee Co-Chairs</h2>
+      
+              <li>Mohammad Sadoghi, University of California,Davis, CA, USA</li>
+
+              <li>Lydia Y. Chen, TU Delft University of Neuchatel, Switzerland and Delft University of Technology, Netherlands. </li>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+     <div class="col-md-3 col-sm-12">
+	<div w3-include-html="/2024/fixed-templates/right-panel.html"></div>
+	<div class="twitter">
+              <a class="twitter-timeline" href="https://twitter.com/AcmMiddleware?lang=en" data-height="250" data-chrome="nofooter" data-link-color="#55acee" data-border-color="#DCDCDC">A Twitter List by TwitterDev</a>
+             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+       </div>
+     </div>
+
+    
+</section>
+
+<div w3-include-html="/2024/fixed-templates/sponsors.html"></div>
+<div w3-include-html="/2024/fixed-templates/footer.html"></div>
+
+	
 </body>
 </html>
