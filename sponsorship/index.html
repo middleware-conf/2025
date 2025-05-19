@@ -62,7 +62,8 @@
 
 </head>
 
-<body>
+<!-- <body> -->
+    <body onLoad=includeHTML()>
 
 
     <header class="navbar-sticky-top">
@@ -602,12 +603,15 @@
                         </div>
 
 
-                    <div class="twitter">
-                        <a class="twitter-timeline" href="https://twitter.com/middleware22?lang=en" data-height="250"
-                            data-chrome="nofooter" data-link-color="#55acee" data-border-color="#DCDCDC">A Twitter List
-                            by TwitterDev</a>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div w3-include-html="/2025/fixed-templates/right-panel.html"></div>
+                            <div class="twitter">
+                                <a class="twitter-timeline" href="https://twitter.com/AcmMiddleware?lang=en" data-height="250"
+                                    data-chrome="nofooter" data-link-color="#55acee" data-border-color="#DCDCDC">A Twitter List by
+                                    TwitterDev</a>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
 
                 </div>
 
@@ -633,7 +637,7 @@
                         <ul class="list-inline mb-20">
                             <li class="list-inline-item">Follow us:</li>
 
-                            <li class="list-inline-item"><a href="https://twitter.com/middleware22" target="_blank"><i
+                            <!-- <li class="list-inline-item"><a href="https://twitter.com/middleware22" target="_blank"><i
                                         class="fa fa-twitter"></i></a></li>
 
                             <li class="list-inline-item"><a
@@ -641,12 +645,12 @@
                                     target="_blank"><i class="fa fa-facebook"></i></a></li>
 
                             <li class="list-inline-item"><a href="https://www.linkedin.com/groups/9093569/"
-                                    target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    target="_blank"><i class="fa fa-linkedin"></i></a></li> -->
 
                         </ul>
                         <p>
                             <center>Copyright &copy;
-                                <script>document.write(new Date().getFullYear())</script> All rights reserved | ÉTS
+                                <script>document.write(new Date().getFullYear())</script> All rights reserved | Vanderbilt University, USA.
                             </center>
                         </p>
                     </div>
@@ -656,7 +660,8 @@
     </footer>
 
 
-
+    <div w3-include-html="/2025/fixed-templates/sponsors.html"></div>
+    <div w3-include-html="/2025/fixed-templates/footer.html"></div>
 </body>
 
 </html>
