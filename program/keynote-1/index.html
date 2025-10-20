@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <base href="https://middleware-conf.github.io/">
   <meta charset="utf-8">
@@ -29,67 +30,73 @@
   <script src="/2025/js/main.min.js"></script>
   <!-- google analitycs -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'Your ID', 'auto');
     ga('send', 'pageview');
   </script>
 </head>
 
-<body onLoad = includeHTML()>
+<body onLoad=includeHTML()>
   <div w3-include-html="/2025/fixed-templates/navbar.html"></div>
-  <section id="global-header" style="background-image: url('/2025/img/Nashville_downtown2_scaled.jpg'),url('/2025/img/Nashville_downtown2_scaled.jpg');">
+  <section id="global-header"
+    style="background-image: url('/2025/img/Nashville_downtown2_scaled.jpg'),url('/2025/img/Nashville_downtown2_scaled.jpg');">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="block">
-            <h1>KEYNOTE 1 - Coming Soon</h1>
+            <h1>KEYNOTE 1 - Dahlia Malkhi</h1>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id = "full-program">
+  <section id="full-program">
     <div class="container">
       <div class="row">
         <div class="col-md-9 col-sm-12">
-<div style="margin-top: 2em;"></div>
-<!-- <table style="width:100%">
-  <tr>
-    <td style="width:20%">
-      <img src=/2025/img/keynote-1.jpg width=90% height=auto>
-    </td>
-    <td>
-      <div style="padding-right:15em;">
-        <p style="color: #655E7A; font-size:30px;"><b>Kun Tan</b></p>
-        <p style="color: #655E7A; font-size:20px;"><b>2012 Labs, Huawei</b></p><br>
-        <p style="font-size:20px;"><b>Keynote Title:<br>Serverless AI on SuperPODs</b></p>
-      </div>
-    </td>
-  </tr>
-</table>
-<div>
-  <p><b>Time & Venue</b></p>
-  <p align="justify" style="padding-right:2em;">9:30 - 10:30, 4 December 2025 (Wednesday) <br> InterContinental Grand Stanford HK</p>
-  <p><b>Abstract</b></p>
-  <p align="justify" style="padding-right:2em;">Modern large Al models demand tremendous computing power and high-speed interconnections, which may be provided with only purposely-built infrastructures or Al SuperPODs. However, managing such powerful computing infrastructure is a challenging task. Enterprise developers may face many difficult issues, such as long downtime as the infrastructure goes more complex, great efforts to parallelize their Al workloads, non-linear performance due to non-optimized resource scaling, and inefficient resource utilization. We argue that a developer-centric platform that contains a full software stack and provide a serverless abstraction is needed to ease the burden of enterprise developers for Al applications. In this talk, I will first discuss the challenges and opportunities for building SuperPOD and its software stack, then I will introduce some of our early efforts on building a serverless Al platform. We will discuss our design of a distributed serverless kernel for both general-purpose and high-performance computing. Then, I will talk several joint system optimizations enabled by our platform due to native integration of full-stack capabilities.</p>
-  <p><b>Biography</b></p>
-  <p align="justify" style="padding-right:2em;">Dr. Kun Tan is the Director and Chief Expert of Distributed and Parallel Software Lab, 2012 Labs, Huawei. He is Huawei Scientist. His team develops cutting-edge Al framework, cloud native, serverless, big data analytics, and cloud networking technologies for many Huawei products. He is Huawei Scientist. Before joined Huawei, he was Research Manager and Senior Researcher of Wireless and Networking Group, Microsoft Research Asia. He won USENIX NSDI Best Paper Award in 2009 and USENIX Test-of-Time Award in 2019.</p>
-</div>
+          <div style="margin-top: 2em;"></div>
+          <table style="width:100%">
+            <tr>
+              <td style="width:20%">
+                <img src=/2025/img/keynote-1.jpg width=90% height=auto>
+              </td>
+              <td>
+                <div style="padding-right:15em;">
+                  <p style="color: #655E7A; font-size:30px;"><b>Dahlia Malkhi</b></p>
+                  <p style="color: #655E7A; font-size:20px;"><b>University of California, Santa Barbara</b></p><br>
+                  <p style="font-size:20px;"><b>Keynote Title:<br></b></p>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div>
+            <p><b>Time & Venue</b></p>
+            <!-- <p align="justify" style="padding-right:2em;">9:30 - 10:30, 4 December 2025 (Wednesday) <br> InterContinental Grand Stanford HK</p> -->
+            <p><b>Abstract</b></p>
+            <p align="justify" style="padding-right:2em;">Coming Soon.</p>
+            <p><b>Biography</b></p>
+            <p align="justify" style="padding-right:2em;">Coming Soon.</p>
+          </div>
         </div>
-         -->
-      <div class="col-md-3 col-sm-12">
-       <div w3-include-html="/2025/fixed-templates/right-panel.html"></div>
-       <div class="twitter">
-        <a class="twitter-timeline" href="https://twitter.com/AcmMiddleware?lang=en" data-height="250" data-chrome="nofooter" data-link-color="#55acee" data-border-color="#DCDCDC">A Twitter List by TwitterDev</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <div class="col-md-3 col-sm-12">
+          <div w3-include-html="/2025/fixed-templates/right-panel.html"></div>
+          <div class="twitter">
+            <a class="twitter-timeline" href="https://twitter.com/AcmMiddleware?lang=en" data-height="250"
+              data-chrome="nofooter" data-link-color="#55acee" data-border-color="#DCDCDC">A Twitter List by
+              TwitterDev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+  </section>
   <div w3-include-html="/2025/fixed-templates/sponsors.html"></div>
   <div w3-include-html="/2025/fixed-templates/footer.html"></div>
 </body>
+
 </html>
